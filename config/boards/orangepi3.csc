@@ -6,6 +6,8 @@ BOOTCONFIG="orangepi_3_defconfig"
 KERNEL_TARGET="legacy,current,edge"
 FULL_DESKTOP="yes"
 CRUSTCONFIG="h6_defconfig"
+CPUMAX="1700000"
+CPUFREQUTILS_ENABLE="true"
 
 function post_family_tweaks_bsp__orangepi3_BSP() {
     display_alert "Installing BSP firmware and fixups"
